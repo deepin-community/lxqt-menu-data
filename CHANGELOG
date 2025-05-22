@@ -1,0 +1,16 @@
+lxqt-menu-data-2.1.0 / 2024-11-05
+=================================
+ * Removed simple menu.
+ * Updated Readme.
+
+lxqt-menu-data-2.0.0 / 2024-04-17
+=================================
+ * Ported to Qt6.
+
+lxqt-menu-data-1.4.1 / 2023-11-10
+=================================
+ * Made the package arch independent.
+
+lxqt-menu-data-1.4.0 / 2023-11-05
+=================================
+ * The first release, to replace lxmenu-data.
