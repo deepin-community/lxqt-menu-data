@@ -1,5 +1,35 @@
-template-repository (1.0-1) unstable; urgency=medium
+lxqt-menu-data (2.1.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 2.1.0
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 02 Dec 2024 08:05:10 +0800
+
+lxqt-menu-data (2.0.0-1) unstable; urgency=medium
+
+  [ Severus Septimius ]
+  * New upstream version 2.0.0
+  * debian/control: bump Standards-Version to 4.7.0, no changes needed.
+  * debian/control: bump build-deps on lxqt-build-tools (>= 2.0.0~).
+  * debian/control: Add Build-Dep on qt6-tools-dev.
+  * debian/changelog: Update changelog
+
+  [ Andrew Lee (李健秋) ]
+  * Run wrap-and-sort.
+  * debian/copyright: add copyright notice for S. 7.
+  * debian/copyright: update.
+  * debian/control: add myself in uploaders.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 28 Jul 2024 04:21:38 +0200
+
+lxqt-menu-data (1.4.1-2) unstable; urgency=medium
+
+  * Merge duplicated copyright.
+  * Add missing Breaks+Replaces. (Closes: #1059595)
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 30 Dec 2023 02:15:58 +0800
+
+lxqt-menu-data (1.4.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1057806)
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 09 Dec 2023 02:33:44 +0800
